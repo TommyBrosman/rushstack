@@ -4,7 +4,10 @@
 
 ```ts
 
+/// <reference types="node" />
+
 import { Lib1Interface } from 'api-extractor-lib1-test';
+import { subtle } from 'node:crypto';
 
 // @alpha
 export class AlphaClass {
@@ -106,6 +109,8 @@ export enum RegularEnum {
     // @internal
     _InternalMember = 102
 }
+
+export { subtle }
 
 // @beta
 export const variableDeclaration: string;

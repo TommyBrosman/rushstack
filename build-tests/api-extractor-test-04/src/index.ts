@@ -36,3 +36,4 @@ export type ExportedAlias = AlphaClass;
 export { IPublicComplexInterface } from './IPublicComplexInterface';
 
 export { Lib1Interface } from 'api-extractor-lib1-test';
+export { subtle } from 'crypto';
